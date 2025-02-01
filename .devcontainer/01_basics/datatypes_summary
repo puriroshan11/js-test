@@ -1,0 +1,18 @@
+/* Primitive DataTypes: Call by Value. Stored in Stack Stores the actual value directly in Memory
+7 types: String, Number, Boolean, Null, Undefined, Symbol (To make any value unique), BigInt
+
+Reference DataTypes (Non primitive): its reference is allocated in the memory. Store memory addresses that point to objects or data structures stored elesewhere in the memory.
+Array, Objects, Functions. The type of this datatypes will be function
+*/
+
+const id = Symbol ('123')
+const anotherId = Symbol ('123')
+console.log(id === anotherId);
+
+//Anything inside a curly braces is object
+// You can treat function as variable in javascript
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+myFunction;
