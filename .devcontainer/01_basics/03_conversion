@@ -1,4 +1,4 @@
-let score = null
+/*let score = null
 
 console.log( typeof score);
  
@@ -23,3 +23,20 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log (stringNumber);
 console.log (typeof stringNumber);
+*/
+
+
+//**************operations************/
+let value = 3
+let negvalue = -3
+console.log(negvalue);
+
+let str1 = "Hello"
+let str2 = "Hitesh"
+
+let str3 = str1 + str2 
+console.log (str3);
+console.log ("1" + 2 +2); //122
+console.log (1 + 2 + "2");//32
+console.log(+true); //1 but not true+
+
