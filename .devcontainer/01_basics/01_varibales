@@ -1,0 +1,15 @@
+const accountID= 144553
+let accountEmail = "roshan@gmail.com"
+var accountPassword = "12345"
+accoountCity = "Jaipur"
+let accountState;// undefined cause you did not give any values
+
+//accountID = 2
+accountEmail = "hbb@gm"
+accountPassword = "212"
+accoountCity = "Ktm"
+console.log( accountID);
+/*
+prefer not to use Var because of issue in block scope and functional scope
+*/
+console.table([ accountID,accountEmail,accountPassword, accountState]);
