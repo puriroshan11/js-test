@@ -16,3 +16,13 @@ const myFunction = function(){
     console.log("Hello World");
 }
 myFunction;
+
+//memories
+
+/*
+Stack: all primitive data types uses stack memory
+
+let myname = "Roshan". You get a copy of that value
+
+heap: reference data types.You get the reference. any changes you do it changes your original value.
+*/
