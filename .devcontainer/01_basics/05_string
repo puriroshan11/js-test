@@ -1,0 +1,19 @@
+const name = "Roshan"
+const repoCount = 50
+console.log ( name + repoCount + "Value");// bad use 
+console.log ( `${name} ${repoCount}`); // use ` not '  and you do not need + to concatinate two strings.
+
+//declaring string other way. Focus on string
+
+const gameName = new String('roshan')
+
+//console.log(gameName [0]);
+//console.log( gameName.__proto__);
+//console.log(gameName.length); //you can access all the prototype and methods using . followed by the name of the prototype method or property.
+console.log(gameName.substring(1, 4));
+console.log(gameName.slice(1,2));
+
+
+
+
+
